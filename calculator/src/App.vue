@@ -38,7 +38,7 @@
 import axios from 'axios';
 
 export default {
-  name: 'CalculatorApp',
+  name: 'Calculator-app',
   data() {
     return {
       firstNumber: '',
