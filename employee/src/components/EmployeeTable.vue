@@ -3,7 +3,6 @@
     <h1>Danh sách nhân viên</h1>
     <button @click="showAddModal">+ Thêm Mới</button>
 
-    <!-- Form thêm/sửa nhân viên -->
     <div v-if="showModal">
       <h3>{{ isEditMode ? 'Cập nhật Nhân viên' : 'Thêm Nhân viên mới' }}</h3>
       <form @submit.prevent="isEditMode ? updateEmployee() : addEmployee()">
